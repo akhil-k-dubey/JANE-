@@ -1,0 +1,10 @@
+# LLM backend config for Jane
+backend: llama_cpp  # switches from ollama to local llama-cpp-python
+model_path: data/models/qwen2.5-3b-instruct-q4_k_m.gguf
+n_gpu_layers: -1       # pin ALL layers to VRAM
+n_ctx: 8192            # context window
+n_batch: 512
+cache_prompt: true     # KV cache for static system prompt (saves 3-4s per call)
+temperature: 0.3
+max_tokens: 350
+chat_format: qwen      # tells llama-cpp-python to use Qwen's chat template

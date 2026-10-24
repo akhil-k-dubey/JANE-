@@ -1,0 +1,74 @@
+[
+  {
+    "id": "math_alg_01",
+    "equation": "2 * x + 4 == 10",
+    "variables": ["x"],
+    "solution": {"x": 3.0},
+    "steps": [
+      {"operation": "subtract", "operands": [10.0, 4.0], "result": 6.0},
+      {"operation": "divide", "operands": [6.0, 2.0], "result": 3.0}
+    ]
+  },
+  {
+    "id": "math_alg_02",
+    "equation": "5 * y - 15 == 35",
+    "variables": ["y"],
+    "solution": {"y": 10.0},
+    "steps": [
+      {"operation": "add", "operands": [35.0, 15.0], "result": 50.0},
+      {"operation": "divide", "operands": [50.0, 5.0], "result": 10.0}
+    ]
+  },
+  {
+    "id": "math_multivar_01",
+    "equation": "3 * a + 2 * b == 28",
+    "constraints": ["b == 5"],
+    "variables": ["a", "b"],
+    "solution": {"a": 6.0, "b": 5.0},
+    "steps": [
+      {"operation": "multiply", "operands": [2.0, 5.0], "result": 10.0},
+      {"operation": "subtract", "operands": [28.0, 10.0], "result": 18.0},
+      {"operation": "divide", "operands": [18.0, 3.0], "result": 6.0}
+    ]
+  },
+  {
+    "id": "math_multistep_word_01",
+    "problem": "A reactor core has 4 fuel assemblies each producing 25 MW. Secondary cooling absorbs 30 MW. What is net power output?",
+    "equations": [
+      "total_power == 4 * 25",
+      "net_power == total_power - 30"
+    ],
+    "variables": ["total_power", "net_power"],
+    "solution": {"total_power": 100.0, "net_power": 70.0},
+    "memory_slots": ["total_power", "net_power"]
+  },
+  {
+    "id": "math_multistep_word_02",
+    "problem": "A spacecraft of mass 1200 kg accelerates from 0 to 50 m/s in 10 seconds. What is the required thrust force?",
+    "equations": [
+      "accel == 50 / 10",
+      "thrust == 1200 * accel"
+    ],
+    "variables": ["accel", "thrust"],
+    "solution": {"accel": 5.0, "thrust": 6000.0},
+    "memory_slots": ["accel", "thrust"]
+  },
+  {
+    "id": "math_calc_01",
+    "equation": "125 * 8 == 1000",
+    "variables": [],
+    "solution": {"result": 1000.0},
+    "steps": [
+      {"operation": "multiply", "operands": [125.0, 8.0], "result": 1000.0}
+    ]
+  },
+  {
+    "id": "math_calc_02",
+    "equation": "720 / 6 == 120",
+    "variables": [],
+    "solution": {"result": 120.0},
+    "steps": [
+      {"operation": "divide", "operands": [720.0, 6.0], "result": 120.0}
+    ]
+  }
+]

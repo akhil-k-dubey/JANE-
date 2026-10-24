@@ -1,0 +1,822 @@
+[
+  {
+    "head": "force",
+    "relation": "relates_to",
+    "tail": "acceleration"
+  },
+  {
+    "head": "force",
+    "relation": "equals_product_of",
+    "tail": "mass"
+  },
+  {
+    "head": "force",
+    "relation": "causes",
+    "tail": "acceleration"
+  },
+  {
+    "head": "mass",
+    "relation": "resists",
+    "tail": "acceleration"
+  },
+  {
+    "head": "mass",
+    "relation": "has_property",
+    "tail": "inertia"
+  },
+  {
+    "head": "acceleration",
+    "relation": "is_rate_of_change_of",
+    "tail": "velocity"
+  },
+  {
+    "head": "velocity",
+    "relation": "is_rate_of_change_of",
+    "tail": "position"
+  },
+  {
+    "head": "velocity",
+    "relation": "relates_to",
+    "tail": "momentum"
+  },
+  {
+    "head": "momentum",
+    "relation": "equals_product_of",
+    "tail": "velocity"
+  },
+  {
+    "head": "momentum",
+    "relation": "conserved_in",
+    "tail": "isolated_system"
+  },
+  {
+    "head": "energy",
+    "relation": "conserved_in",
+    "tail": "closed_system"
+  },
+  {
+    "head": "kinetic_energy",
+    "relation": "depends_on",
+    "tail": "velocity"
+  },
+  {
+    "head": "potential_energy",
+    "relation": "depends_on",
+    "tail": "position"
+  },
+  {
+    "head": "work",
+    "relation": "transforms",
+    "tail": "energy"
+  },
+  {
+    "head": "work",
+    "relation": "equals_product_of",
+    "tail": "force"
+  },
+  {
+    "head": "power",
+    "relation": "is_rate_of",
+    "tail": "energy"
+  },
+  {
+    "head": "power",
+    "relation": "equals_product_of",
+    "tail": "work"
+  },
+  {
+    "head": "force_work_bridge",
+    "relation": "couples",
+    "tail": "energy"
+  },
+  {
+    "head": "momentum_force_bridge",
+    "relation": "couples",
+    "tail": "force"
+  },
+  {
+    "head": "momentum_velocity_bridge",
+    "relation": "couples",
+    "tail": "velocity"
+  },
+  {
+    "head": "energy_power_bridge",
+    "relation": "couples",
+    "tail": "power"
+  },
+  {
+    "head": "work_power_bridge",
+    "relation": "couples",
+    "tail": "work"
+  },
+  {
+    "head": "force_pressure_bridge",
+    "relation": "couples",
+    "tail": "pressure"
+  },
+  {
+    "head": "temperature",
+    "relation": "measures",
+    "tail": "thermal_energy"
+  },
+  {
+    "head": "heat",
+    "relation": "flows_down",
+    "tail": "temperature_gradient"
+  },
+  {
+    "head": "pressure",
+    "relation": "is_force_per_unit",
+    "tail": "area"
+  },
+  {
+    "head": "ideal_gas_law",
+    "relation": "relates",
+    "tail": "pressure"
+  },
+  {
+    "head": "ideal_gas_law",
+    "relation": "relates",
+    "tail": "temperature"
+  },
+  {
+    "head": "ideal_gas_law",
+    "relation": "relates",
+    "tail": "volume"
+  },
+  {
+    "head": "entropy",
+    "relation": "increases_in",
+    "tail": "spontaneous_process"
+  },
+  {
+    "head": "entropy_temperature_bridge",
+    "relation": "couples",
+    "tail": "temperature"
+  },
+  {
+    "head": "stefan_boltzmann_law",
+    "relation": "governs",
+    "tail": "blackbody_radiation"
+  },
+  {
+    "head": "electrical_power",
+    "relation": "equals_product_of",
+    "tail": "voltage"
+  },
+  {
+    "head": "voltage",
+    "relation": "equals_product_of",
+    "tail": "current"
+  },
+  {
+    "head": "current",
+    "relation": "is_flow_of",
+    "tail": "charge"
+  },
+  {
+    "head": "quantum_entanglement",
+    "relation": "violates",
+    "tail": "bell_theorem"
+  },
+  {
+    "head": "quantum_entanglement",
+    "relation": "preserves",
+    "tail": "conservation_laws"
+  },
+  {
+    "head": "superconductivity",
+    "relation": "exhibits",
+    "tail": "meissner_effect"
+  },
+  {
+    "head": "superconductivity",
+    "relation": "characterized_by",
+    "tail": "london_penetration_depth"
+  },
+  {
+    "head": "meissner_effect",
+    "relation": "expels",
+    "tail": "magnetic_field"
+  },
+  {
+    "head": "de_broglie_wavelength",
+    "relation": "inversely_proportional_to",
+    "tail": "momentum"
+  },
+  {
+    "head": "heisenberg_uncertainty",
+    "relation": "bounds",
+    "tail": "conjugate_variables"
+  },
+  {
+    "head": "laser",
+    "relation": "emits",
+    "tail": "coherent_light"
+  },
+  {
+    "head": "plasma",
+    "relation": "contains",
+    "tail": "charged_particles"
+  },
+  {
+    "head": "hall_effect",
+    "relation": "generates",
+    "tail": "transverse_voltage"
+  },
+  {
+    "head": "dark_matter",
+    "relation": "interacts_via",
+    "tail": "gravitational_potential"
+  },
+  {
+    "head": "gravitational_potential",
+    "relation": "determines",
+    "tail": "escape_velocity"
+  },
+  {
+    "head": "speed_of_light",
+    "relation": "is_upper_bound_for",
+    "tail": "velocity"
+  },
+  {
+    "head": "lorentz_contraction",
+    "relation": "shortens",
+    "tail": "length"
+  },
+  {
+    "head": "relativistic_energy",
+    "relation": "unifies",
+    "tail": "mass"
+  },
+  {
+    "head": "relativistic_momentum",
+    "relation": "scales_with",
+    "tail": "lorentz_factor"
+  },
+  {
+    "head": "python",
+    "relation": "is_a",
+    "tail": "programming_language"
+  },
+  {
+    "head": "python",
+    "relation": "used_in",
+    "tail": "scientific_computing"
+  },
+  {
+    "head": "python",
+    "relation": "supports",
+    "tail": "symbolic_reasoning"
+  },
+  {
+    "head": "python",
+    "relation": "executes",
+    "tail": "neural_networks"
+  },
+  {
+    "head": "python",
+    "relation": "interfaces_with",
+    "tail": "z3_solver"
+  },
+  {
+    "head": "python",
+    "relation": "implements",
+    "tail": "relational_manifold"
+  },
+  {
+    "head": "coding",
+    "relation": "synthesizes",
+    "tail": "software"
+  },
+  {
+    "head": "coding",
+    "relation": "formalizes",
+    "tail": "algorithmic_logic"
+  },
+  {
+    "head": "church_turing_thesis",
+    "relation": "defines",
+    "tail": "effective_computability"
+  },
+  {
+    "head": "church_turing_thesis",
+    "relation": "models",
+    "tail": "universal_turing_machine"
+  },
+  {
+    "head": "algorithm",
+    "relation": "computes",
+    "tail": "mathematical_function"
+  },
+  {
+    "head": "symbolic_reasoning",
+    "relation": "verified_by",
+    "tail": "smt_prover"
+  },
+  {
+    "head": "neural_networks",
+    "relation": "navigates",
+    "tail": "geometric_manifold"
+  },
+  {
+    "head": "shannon_entropy",
+    "relation": "quantifies",
+    "tail": "information_uncertainty"
+  },
+  {
+    "head": "hyperbolic",
+    "relation": "has_negative",
+    "tail": "gaussian_curvature"
+  },
+  {
+    "head": "hyperbolic",
+    "relation": "embeds_hierarchies_in",
+    "tail": "poincare_disk"
+  },
+  {
+    "head": "calculus_derivative",
+    "relation": "measures_rate_of",
+    "tail": "change"
+  },
+  {
+    "head": "non_euclidean_geometry",
+    "relation": "generalizes",
+    "tail": "euclidean_space"
+  },
+  {
+    "head": "modus_ponens",
+    "relation": "infers_truth_in",
+    "tail": "formal_logic"
+  },
+  {
+    "head": "pythagorean_theorem",
+    "relation": "relates_sides_of",
+    "tail": "right_triangle"
+  },
+  {
+    "head": "theory_of_mind",
+    "relation": "tracks",
+    "tail": "ego_alter_perspective"
+  },
+  {
+    "head": "cognitive_dissonance",
+    "relation": "monitors",
+    "tail": "belief_contradiction"
+  },
+  {
+    "head": "popperian_falsification",
+    "relation": "tests",
+    "tail": "scientific_hypotheses"
+  },
+  {
+    "head": "epistemic_humility",
+    "relation": "acknowledges",
+    "tail": "knowledge_boundaries"
+  },
+  {
+    "head": "acoustic_manifold",
+    "relation": "maps",
+    "tail": "continuous_spectrograms"
+  },
+  {
+    "head": "vad_silence_gating",
+    "relation": "filters",
+    "tail": "background_noise"
+  },
+  {
+    "head": "vision_transformer",
+    "relation": "processes",
+    "tail": "patch_embeddings"
+  },
+  {
+    "head": "relativistic_momentum",
+    "relation": "related_to",
+    "tail": "momentum"
+  },
+  {
+    "head": "relativistic_momentum",
+    "relation": "related_to",
+    "tail": "velocity"
+  },
+  {
+    "head": "lorentz_contraction",
+    "relation": "related_to",
+    "tail": "velocity"
+  },
+  {
+    "head": "lorentz_contraction",
+    "relation": "related_to",
+    "tail": "dimension"
+  },
+  {
+    "head": "relativistic_energy",
+    "relation": "related_to",
+    "tail": "mass"
+  },
+  {
+    "head": "relativistic_energy",
+    "relation": "related_to",
+    "tail": "momentum"
+  },
+  {
+    "head": "de_broglie_wavelength",
+    "relation": "related_to",
+    "tail": "wavelength"
+  },
+  {
+    "head": "de_broglie_wavelength",
+    "relation": "related_to",
+    "tail": "momentum"
+  },
+  {
+    "head": "heisenberg_uncertainty",
+    "relation": "related_to",
+    "tail": "momentum"
+  },
+  {
+    "head": "heisenberg_uncertainty",
+    "relation": "related_to",
+    "tail": "position"
+  },
+  {
+    "head": "stefan_boltzmann_law",
+    "relation": "related_to",
+    "tail": "temperature"
+  },
+  {
+    "head": "stefan_boltzmann_law",
+    "relation": "related_to",
+    "tail": "power"
+  },
+  {
+    "head": "ideal_gas_law",
+    "relation": "related_to",
+    "tail": "pressure"
+  },
+  {
+    "head": "ideal_gas_law",
+    "relation": "related_to",
+    "tail": "temperature"
+  },
+  {
+    "head": "shannon_entropy",
+    "relation": "related_to",
+    "tail": "probability"
+  },
+  {
+    "head": "shannon_entropy",
+    "relation": "related_to",
+    "tail": "entropy"
+  },
+  {
+    "head": "church_turing_thesis",
+    "relation": "related_to",
+    "tail": "computation"
+  },
+  {
+    "head": "church_turing_thesis",
+    "relation": "related_to",
+    "tail": "axiom"
+  },
+  {
+    "head": "quantum_entanglement",
+    "relation": "related_to",
+    "tail": "quantum"
+  },
+  {
+    "head": "quantum_entanglement",
+    "relation": "related_to",
+    "tail": "wave_function"
+  },
+  {
+    "head": "bell_theorem",
+    "relation": "related_to",
+    "tail": "quantum"
+  },
+  {
+    "head": "bell_theorem",
+    "relation": "related_to",
+    "tail": "probability"
+  },
+  {
+    "head": "hall_effect",
+    "relation": "related_to",
+    "tail": "energy"
+  },
+  {
+    "head": "hall_effect",
+    "relation": "related_to",
+    "tail": "velocity"
+  },
+  {
+    "head": "superposition_flux_flux_quantum",
+    "relation": "related_to",
+    "tail": "flux"
+  },
+  {
+    "head": "superposition_flux",
+    "relation": "related_to",
+    "tail": "flux"
+  },
+  {
+    "head": "hall_effect_stefan_boltzmann_constant_xy",
+    "relation": "related_to",
+    "tail": "energy"
+  },
+  {
+    "head": "hall_effect_stefan_boltzmann_constant_xy",
+    "relation": "related_to",
+    "tail": "velocity"
+  },
+  {
+    "head": "meissner_effect",
+    "relation": "related_to",
+    "tail": "superconductivity"
+  },
+  {
+    "head": "meissner_effect",
+    "relation": "related_to",
+    "tail": "magnetic_flux"
+  },
+  {
+    "head": "london_penetration_depth",
+    "relation": "related_to",
+    "tail": "superconductivity"
+  },
+  {
+    "head": "london_penetration_depth",
+    "relation": "related_to",
+    "tail": "permeability"
+  },
+  {
+    "head": "superposition_flux_flux_quantum",
+    "relation": "related_to",
+    "tail": "magnetic_flux"
+  },
+  {
+    "head": "superposition_flux_flux_quantum",
+    "relation": "related_to",
+    "tail": "quantum"
+  },
+  {
+    "head": "superposition_flux",
+    "relation": "related_to",
+    "tail": "magnetic_flux"
+  },
+  {
+    "head": "superposition_flux",
+    "relation": "related_to",
+    "tail": "quantum"
+  },
+  {
+    "head": "kilogram",
+    "relation": "is_unit_of",
+    "tail": "mass"
+  },
+  {
+    "head": "meter",
+    "relation": "is_unit_of",
+    "tail": "length"
+  },
+  {
+    "head": "second",
+    "relation": "is_unit_of",
+    "tail": "time"
+  },
+  {
+    "head": "newton",
+    "relation": "is_unit_of",
+    "tail": "force"
+  },
+  {
+    "head": "joule",
+    "relation": "is_unit_of",
+    "tail": "energy"
+  },
+  {
+    "head": "watt",
+    "relation": "is_unit_of",
+    "tail": "power"
+  },
+  {
+    "head": "pascal",
+    "relation": "is_unit_of",
+    "tail": "pressure"
+  },
+  {
+    "head": "kelvin",
+    "relation": "is_unit_of",
+    "tail": "temperature"
+  },
+  {
+    "head": "ampere",
+    "relation": "is_unit_of",
+    "tail": "electric_current"
+  },
+  {
+    "head": "volt",
+    "relation": "is_unit_of",
+    "tail": "voltage"
+  },
+  {
+    "head": "ohm",
+    "relation": "is_unit_of",
+    "tail": "resistance"
+  },
+  {
+    "head": "carnot_limit",
+    "relation": "bounds",
+    "tail": "thermal_efficiency"
+  },
+  {
+    "head": "thruster_thrust",
+    "relation": "generates",
+    "tail": "reaction_force"
+  },
+  {
+    "head": "mass_flow",
+    "relation": "multiplies",
+    "tail": "exhaust_velocity"
+  },
+  {
+    "head": "joule_heating",
+    "relation": "dissipates",
+    "tail": "electrical_energy"
+  },
+  {
+    "head": "gravitational_field",
+    "relation": "exerts_force_on",
+    "tail": "mass"
+  },
+  {
+    "head": "kinetic_energy",
+    "relation": "scales_with_square_of",
+    "tail": "velocity"
+  },
+  {
+    "head": "rest_energy",
+    "relation": "scales_with_square_of",
+    "tail": "speed_of_light"
+  },
+  {
+    "head": "bell_theorem",
+    "relation": "rules_out",
+    "tail": "local_hidden_variables"
+  },
+  {
+    "head": "wavefunction",
+    "relation": "collapses_under",
+    "tail": "measurement"
+  },
+  {
+    "head": "superposition",
+    "relation": "permits",
+    "tail": "linear_combination_of_states"
+  },
+  {
+    "head": "bekenstein_hawking_entropy",
+    "relation": "proportional_to",
+    "tail": "black_hole_area"
+  },
+  {
+    "head": "compiler",
+    "relation": "translates",
+    "tail": "source_code"
+  },
+  {
+    "head": "bytecode",
+    "relation": "executed_by",
+    "tail": "virtual_machine"
+  },
+  {
+    "head": "turing_machine",
+    "relation": "reads_and_writes",
+    "tail": "tape_memory"
+  },
+  {
+    "head": "clingo_asp",
+    "relation": "solves",
+    "tail": "answer_set_programs"
+  },
+  {
+    "head": "z3_prover",
+    "relation": "proves",
+    "tail": "smt_satisfiability"
+  },
+  {
+    "head": "hebbian_learning",
+    "relation": "wires",
+    "tail": "coactive_neurons"
+  },
+  {
+    "head": "dnc_memory",
+    "relation": "addresses",
+    "tail": "external_memory_matrix"
+  },
+  {
+    "head": "nalu_cluster",
+    "relation": "extrapolates",
+    "tail": "numerical_arithmetic"
+  },
+  {
+    "head": "poincare_disk",
+    "relation": "projects",
+    "tail": "hyperbolic_embeddings"
+  },
+  {
+    "head": "minkowski_metric",
+    "relation": "measures_distance_in",
+    "tail": "spacetime"
+  },
+  {
+    "head": "force_work_bridge",
+    "relation": "related_to",
+    "tail": "force"
+  },
+  {
+    "head": "force_work_bridge",
+    "relation": "related_to",
+    "tail": "work"
+  },
+  {
+    "head": "momentum_velocity_bridge",
+    "relation": "related_to",
+    "tail": "momentum"
+  },
+  {
+    "head": "momentum_velocity_bridge",
+    "relation": "related_to",
+    "tail": "velocity"
+  },
+  {
+    "head": "energy_power_bridge",
+    "relation": "related_to",
+    "tail": "energy"
+  },
+  {
+    "head": "energy_power_bridge",
+    "relation": "related_to",
+    "tail": "power"
+  },
+  {
+    "head": "work_power_bridge",
+    "relation": "related_to",
+    "tail": "work"
+  },
+  {
+    "head": "work_power_bridge",
+    "relation": "related_to",
+    "tail": "power"
+  },
+  {
+    "head": "entropy_temperature_bridge",
+    "relation": "related_to",
+    "tail": "entropy"
+  },
+  {
+    "head": "entropy_temperature_bridge",
+    "relation": "related_to",
+    "tail": "temperature"
+  },
+  {
+    "head": "force_pressure_bridge",
+    "relation": "related_to",
+    "tail": "force"
+  },
+  {
+    "head": "force_pressure_bridge",
+    "relation": "related_to",
+    "tail": "pressure"
+  },
+  {
+    "head": "momentum_force_bridge",
+    "relation": "related_to",
+    "tail": "momentum"
+  },
+  {
+    "head": "momentum_force_bridge",
+    "relation": "related_to",
+    "tail": "force"
+  },
+  {
+    "head": "flux_teaching_explaining_coupling",
+    "relation": "related_to",
+    "tail": "flux"
+  },
+  {
+    "head": "flux_teaching_explaining_coupling",
+    "relation": "related_to",
+    "tail": "teaching_explaining"
+  },
+  {
+    "head": "limit_teaching_explaining_coupling",
+    "relation": "related_to",
+    "tail": "limit"
+  },
+  {
+    "head": "limit_teaching_explaining_coupling",
+    "relation": "related_to",
+    "tail": "teaching_explaining"
+  }
+]

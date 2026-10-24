@@ -1,0 +1,32 @@
+# Python bytecode & environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.pytest_cache/
+
+# Large model weights (download via scripts/download_qwen.py)
+data/models/*.gguf
+data/models/.cache/
+.ollama/
+
+# Runtime session logs and personal ledger traces
+logs/*.log
+logs/*.jsonl
+logs/*.jsonl.bak
+logs/test_gateway_ledger.jsonl
+
+# OS and Editor artifacts
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary builds
+build/
+dist/
+*.egg-info/
+tmp/

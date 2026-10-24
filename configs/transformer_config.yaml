@@ -1,0 +1,10 @@
+# Transformer & Translator Configurations
+latent_dim: 256
+encoder_dim: 256
+decoder_dim: 256
+vocab_size: 5000
+max_sequence_length: 512
+decoder_layers: 4
+decoder_heads: 8
+dropout: 0.1
+device: "cuda"  # Auto-falls back to cpu if cuda unavailable

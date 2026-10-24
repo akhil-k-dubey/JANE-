@@ -1,0 +1,38 @@
+# Reasoning Engine Hyperparameters (NALU, DNC, Manifold, Energy)
+
+# Latent Dimension (High-dimensional representation space)
+latent_dim: 256
+presentation_dim: 3  # 3D projection for Tony Stark-style visual presentation
+
+# NALU Arithmetic Unit
+nalu:
+  input_dim: 32
+  output_dim: 32
+  epsilon: 1.0e-7
+
+# Differentiable Neural Computer (Scratchpad Memory Tape)
+dnc:
+  memory_slots: 32
+  memory_dim: 64
+  controller_dim: 256
+  read_heads: 2
+
+# Relational Manifold (GNN Workspace)
+manifold:
+  num_nodes: 32
+  num_layers: 3
+  geometry: "poincare"  # 'poincare' or 'euclidean'
+  curvature: 1.0
+
+# Energy-Based Model & System 2 Latent Reasoning
+energy:
+  hidden_dim: 512
+  settling_steps: 5
+  step_size: 0.05
+  barrier_weight: 100.0  # Brick-wall penalty for physics violations
+  convergence_threshold: 1.0e-4
+
+# System 2 Reasoning Loop
+system2:
+  max_iterations: 8
+  settle_energy: true

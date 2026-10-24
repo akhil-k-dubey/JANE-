@@ -1,0 +1,46 @@
+[
+  {"symbol": "kg", "name": "kilogram", "dimension": "MASS", "vector": [1, 0, 0, 0, 0, 0, 0, 0], "domain": "mechanics"},
+  {"symbol": "g", "name": "gram", "dimension": "MASS", "vector": [1, 0, 0, 0, 0, 0, 0, 0], "domain": "mechanics"},
+  {"symbol": "ton", "name": "metric_ton", "dimension": "MASS", "vector": [1, 0, 0, 0, 0, 0, 0, 0], "domain": "mechanics"},
+  {"symbol": "mass", "name": "inertial_mass", "dimension": "MASS", "vector": [1, 0, 0, 0, 0, 0, 0, 0], "domain": "physics"},
+
+  {"symbol": "m", "name": "meter", "dimension": "LENGTH", "vector": [0, 1, 0, 0, 0, 0, 0, 0], "domain": "geometry"},
+  {"symbol": "km", "name": "kilometer", "dimension": "LENGTH", "vector": [0, 1, 0, 0, 0, 0, 0, 0], "domain": "geometry"},
+  {"symbol": "cm", "name": "centimeter", "dimension": "LENGTH", "vector": [0, 1, 0, 0, 0, 0, 0, 0], "domain": "geometry"},
+  {"symbol": "mm", "name": "millimeter", "dimension": "LENGTH", "vector": [0, 1, 0, 0, 0, 0, 0, 0], "domain": "engineering"},
+  {"symbol": "distance", "name": "spatial_displacement", "dimension": "LENGTH", "vector": [0, 1, 0, 0, 0, 0, 0, 0], "domain": "kinematics"},
+  {"symbol": "height", "name": "vertical_position", "dimension": "LENGTH", "vector": [0, 1, 0, 0, 0, 0, 0, 0], "domain": "kinematics"},
+
+  {"symbol": "s", "name": "second", "dimension": "TIME", "vector": [0, 0, 1, 0, 0, 0, 0, 0], "domain": "physics"},
+  {"symbol": "ms", "name": "millisecond", "dimension": "TIME", "vector": [0, 0, 1, 0, 0, 0, 0, 0], "domain": "physics"},
+  {"symbol": "min", "name": "minute", "dimension": "TIME", "vector": [0, 0, 1, 0, 0, 0, 0, 0], "domain": "general"},
+  {"symbol": "hr", "name": "hour", "dimension": "TIME", "vector": [0, 0, 1, 0, 0, 0, 0, 0], "domain": "general"},
+  {"symbol": "duration", "name": "elapsed_time", "dimension": "TIME", "vector": [0, 0, 1, 0, 0, 0, 0, 0], "domain": "kinematics"},
+
+  {"symbol": "A", "name": "ampere", "dimension": "CURRENT", "vector": [0, 0, 0, 1, 0, 0, 0, 0], "domain": "electromagnetism"},
+  {"symbol": "mA", "name": "milliampere", "dimension": "CURRENT", "vector": [0, 0, 0, 1, 0, 0, 0, 0], "domain": "electromagnetism"},
+  {"symbol": "current", "name": "electric_current", "dimension": "CURRENT", "vector": [0, 0, 0, 1, 0, 0, 0, 0], "domain": "circuits"},
+
+  {"symbol": "K", "name": "kelvin", "dimension": "TEMPERATURE", "vector": [0, 0, 0, 0, 1, 0, 0, 0], "domain": "thermodynamics"},
+  {"symbol": "degC", "name": "celsius", "dimension": "TEMPERATURE", "vector": [0, 0, 0, 0, 1, 0, 0, 0], "domain": "thermodynamics"},
+  {"symbol": "temperature", "name": "thermal_state", "dimension": "TEMPERATURE", "vector": [0, 0, 0, 0, 1, 0, 0, 0], "domain": "thermodynamics"},
+
+  {"symbol": "m/s", "name": "meters_per_second", "dimension": "VELOCITY", "vector": [0, 0, 0, 0, 0, 1, 0, 0], "domain": "kinematics"},
+  {"symbol": "km/h", "name": "kilometers_per_hour", "dimension": "VELOCITY", "vector": [0, 0, 0, 0, 0, 1, 0, 0], "domain": "kinematics"},
+  {"symbol": "velocity", "name": "vector_speed", "dimension": "VELOCITY", "vector": [0, 0, 0, 0, 0, 1, 0, 0], "domain": "kinematics"},
+  {"symbol": "exhaust_velocity", "name": "thruster_speed", "dimension": "VELOCITY", "vector": [0, 0, 0, 0, 0, 1, 0, 0], "domain": "aerospace"},
+
+  {"symbol": "J", "name": "joule", "dimension": "ENERGY", "vector": [0, 0, 0, 0, 0, 0, 1, 0], "domain": "physics"},
+  {"symbol": "kJ", "name": "kilojoule", "dimension": "ENERGY", "vector": [0, 0, 0, 0, 0, 0, 1, 0], "domain": "physics"},
+  {"symbol": "MJ", "name": "megajoule", "dimension": "ENERGY", "vector": [0, 0, 0, 0, 0, 0, 1, 0], "domain": "physics"},
+  {"symbol": "W", "name": "watt", "dimension": "ENERGY", "vector": [0, 0, 0, 0, 0, 0, 1, 0], "domain": "electrodynamics"},
+  {"symbol": "kW", "name": "kilowatt", "dimension": "ENERGY", "vector": [0, 0, 0, 0, 0, 0, 1, 0], "domain": "engineering"},
+  {"symbol": "MW", "name": "megawatt", "dimension": "ENERGY", "vector": [0, 0, 0, 0, 0, 0, 1, 0], "domain": "aerospace"},
+  {"symbol": "energy", "name": "work_capability", "dimension": "ENERGY", "vector": [0, 0, 0, 0, 0, 0, 1, 0], "domain": "physics"},
+  {"symbol": "power", "name": "energy_rate", "dimension": "ENERGY", "vector": [0, 0, 0, 0, 0, 0, 1, 0], "domain": "physics"},
+
+  {"symbol": "rad", "name": "radian", "dimension": "DIMENSIONLESS", "vector": [0, 0, 0, 0, 0, 0, 0, 1], "domain": "mathematics"},
+  {"symbol": "percent", "name": "percentage", "dimension": "DIMENSIONLESS", "vector": [0, 0, 0, 0, 0, 0, 0, 1], "domain": "mathematics"},
+  {"symbol": "ratio", "name": "unit_ratio", "dimension": "DIMENSIONLESS", "vector": [0, 0, 0, 0, 0, 0, 0, 1], "domain": "mathematics"},
+  {"symbol": "count", "name": "discrete_quantity", "dimension": "DIMENSIONLESS", "vector": [0, 0, 0, 0, 0, 0, 0, 1], "domain": "mathematics"}
+]

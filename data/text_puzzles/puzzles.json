@@ -1,0 +1,109 @@
+[
+  {
+    "id": "math_valid_01",
+    "domain": "math",
+    "lhs": "25.0 + 35.0",
+    "rhs": "60.0",
+    "is_hallucination": false,
+    "description": "Standard additive balance"
+  },
+  {
+    "id": "math_hallucination_01",
+    "domain": "math",
+    "lhs": "25.0 + 35.0",
+    "rhs": "72.0",
+    "is_hallucination": true,
+    "description": "Neural guess with arithmetic hallucination"
+  },
+  {
+    "id": "math_multivar_valid_02",
+    "domain": "math",
+    "lhs": "2 * x + 3 * x",
+    "rhs": "5 * x",
+    "is_hallucination": false,
+    "description": "Multi-variable algebraic identity"
+  },
+  {
+    "id": "math_multivar_hallucination_02",
+    "domain": "math",
+    "lhs": "2 * x + 3 * y",
+    "rhs": "5 * x * y",
+    "is_hallucination": true,
+    "description": "Algebraic hallucination conflating addition and multiplication"
+  },
+  {
+    "id": "physics_valid_01",
+    "domain": "physics",
+    "quantities": [
+      {
+        "magnitude": 10.5,
+        "dimension": "MASS",
+        "confidence": 0.99
+      },
+      {
+        "magnitude": 100.0,
+        "dimension": "ENERGY",
+        "confidence": 0.99,
+        "is_input": true
+      },
+      {
+        "magnitude": 85.0,
+        "dimension": "ENERGY",
+        "confidence": 0.99,
+        "is_output": true
+      }
+    ],
+    "is_hallucination": false,
+    "description": "Thermally consistent sub-unity efficiency"
+  },
+  {
+    "id": "physics_hallucination_negative_mass",
+    "domain": "physics",
+    "quantities": [
+      {
+        "magnitude": -4.2,
+        "dimension": "MASS",
+        "confidence": 0.99
+      },
+      {
+        "magnitude": 50.0,
+        "dimension": "ENERGY",
+        "confidence": 0.99,
+        "is_input": true
+      },
+      {
+        "magnitude": 20.0,
+        "dimension": "ENERGY",
+        "confidence": 0.99,
+        "is_output": true
+      }
+    ],
+    "is_hallucination": true,
+    "description": "Unphysical negative mass candidate"
+  },
+  {
+    "id": "physics_hallucination_perpetual_motion",
+    "domain": "physics",
+    "quantities": [
+      {
+        "magnitude": 1.0,
+        "dimension": "MASS",
+        "confidence": 0.99
+      },
+      {
+        "magnitude": 100.0,
+        "dimension": "ENERGY",
+        "confidence": 0.99,
+        "is_input": true
+      },
+      {
+        "magnitude": 250.0,
+        "dimension": "ENERGY",
+        "confidence": 0.99,
+        "is_output": true
+      }
+    ],
+    "is_hallucination": true,
+    "description": "Thermodynamic first law violation (free energy creation)"
+  }
+]

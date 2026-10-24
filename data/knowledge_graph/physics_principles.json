@@ -1,0 +1,134 @@
+[
+  {
+    "concept": "mass_conservation",
+    "relation": "invariant",
+    "statement": "Mass cannot be negative in classical physics. Total mass remains invariant under non-nuclear transformations.",
+    "domain": "Physics & Energy"
+  },
+  {
+    "concept": "energy_conservation",
+    "relation": "first_law",
+    "statement": "Energy cannot be created or destroyed, only transformed. Output energy cannot exceed input energy in a closed system.",
+    "domain": "Physics & Energy"
+  },
+  {
+    "concept": "kinematic_limits",
+    "relation": "relativistic_limit",
+    "statement": "No object with mass can accelerate to or exceed the vacuum speed of light.",
+    "domain": "Physics & Energy"
+  },
+  {
+    "concept": "newton_second_law",
+    "relation": "dynamics",
+    "statement": "Force is equal to the product of mass and acceleration (F = m * a).",
+    "domain": "Physics & Energy"
+  },
+  {
+    "concept": "electrical_power",
+    "relation": "electrodynamics",
+    "statement": "Electrical power is equal to voltage multiplied by current (P = V * I).",
+    "domain": "Physics & Energy"
+  },
+  {
+    "concept": "quantum",
+    "relation": "wave_mechanics",
+    "statement": "Quantum systems evolve under the Schr\u00f6dinger equation. Fundamental phenomena include linear superposition of states and non-local quantum entanglement, preserving conservation laws across space-like intervals.",
+    "domain": "Physics & Energy"
+  },
+  {
+    "concept": "de_broglie_wavelength",
+    "relation": "wave_particle_duality",
+    "statement": "Matter exhibits wave-particle duality, where matter waves have wavelength inversely proportional to momentum: lambda = h / p.",
+    "domain": "Physics & Energy"
+  },
+  {
+    "concept": "heisenberg_uncertainty",
+    "relation": "quantum_limit",
+    "statement": "Canonical conjugate physical variables cannot be simultaneously measured with arbitrary precision: delta_x * delta_p >= hbar / 2.",
+    "domain": "Physics & Energy"
+  },
+  {
+    "concept": "lorentz_contraction",
+    "relation": "special_relativity",
+    "statement": "Lengths of moving bodies are contracted along the direction of motion by the Lorentz factor: length = proper_length * sqrt(1 - v^2 / c^2).",
+    "domain": "Physics & Energy"
+  },
+  {
+    "concept": "relativistic_energy",
+    "relation": "mass_energy_equivalence",
+    "statement": "Total relativistic energy unifies rest mass and momentum: E = sqrt((p * c)^2 + (m * c^2)^2).",
+    "domain": "Physics & Energy"
+  },
+  {
+    "concept": "stefan_boltzmann_law",
+    "relation": "blackbody_radiation",
+    "statement": "Total radiant power per unit area emitted by a blackbody is directly proportional to the fourth power of thermodynamic temperature: j = sigma * T^4.",
+    "domain": "Physics & Energy"
+  },
+  {
+    "concept": "ideal_gas_law",
+    "relation": "thermodynamics",
+    "statement": "The thermodynamic equation of state relating macroscopic properties of an ideal gas: P * V = n * R * T.",
+    "domain": "Physics & Energy"
+  },
+  {
+    "concept": "shannon_entropy",
+    "relation": "information_theory",
+    "statement": "Information entropy quantifies the expected surprise or uncertainty in a stochastic source: H(X) = -sum(p * log2(p)).",
+    "domain": "Mathematics & Logic"
+  },
+  {
+    "concept": "church_turing_thesis",
+    "relation": "computability_theory",
+    "statement": "Any effective algorithmic calculation or computable function can be simulated on a Universal Turing Machine.",
+    "domain": "Computer Science & Coding"
+  },
+  {
+    "concept": "holographic",
+    "relation": "optical_interference",
+    "statement": "Holographic projection reconstructs 3D wavefronts using coherent light split into object and reference beams, recording microscopic phase interferograms modulated dynamically via Spatial Light Modulators (SLMs).",
+    "domain": "Physics & Energy"
+  },
+  {
+    "concept": "hyperbolic",
+    "relation": "non_euclidean_geometry",
+    "statement": "Hyperbolic spaces (H^n) are non-Euclidean manifolds with constant negative Gaussian curvature, mapped via Lorentzian Minkowski metrics (-t^2 + x^2 + y^2 = -1) or conformal Poincare disk projections to embed hierarchical trees with minimal distortion.",
+    "domain": "Mathematics & Logic"
+  },
+  {
+    "concept": "coding",
+    "relation": "software_synthesis",
+    "statement": "Neuro-symbolic code generation spans Python, C++, PyTorch architectures, and declarative symbolic engines like Z3 SMT and Clingo ASP for provably sound algorithmic execution.",
+    "domain": "Computer Science & Coding"
+  },
+  {
+    "concept": "epistemic_discovery",
+    "relation": "popperian_falsification",
+    "statement": "Autonomous discovery scans for topological voids between concepts, synthesizes candidate invariants, and enforces Karl Popper's falsification criterion via Z3 SMT prover (asserting Negation UNSAT) before committing to memory.",
+    "domain": "Cognitive & Epistemic"
+  },
+  {
+    "concept": "superconductivity",
+    "relation": "macroscopic_quantum",
+    "statement": "Superconductivity exhibits zero electrical resistance below critical temperature and the Meissner effect, with magnetic flux quantized in integer multiples of Phi_0 = h / (2 * e).",
+    "domain": "Physics & Energy"
+  },
+  {
+    "concept": "python",
+    "relation": "programming_language",
+    "statement": "Python is a high-level language used across scientific computing, neural network architectures, and symbolic reasoning pipelines.",
+    "domain": "Computer Science & Coding"
+  },
+  {
+    "concept": "ast_parsing",
+    "relation": "formal_syntax_analysis",
+    "statement": "Abstract Syntax Tree parsing via Lark Context-Free Grammars converts code and logic formulas into structured AST nodes, eliminating syntax hallucinations before formal verification.",
+    "domain": "Computer Science & Coding"
+  },
+  {
+    "concept": "formal_logic",
+    "relation": "soundness_verification",
+    "statement": "Formal logic encodes program semantics and physical invariants into SMT constraints, enabling Z3 deterministic solvers to prove safety and contract satisfaction prior to execution.",
+    "domain": "Mathematics & Logic"
+  }
+]

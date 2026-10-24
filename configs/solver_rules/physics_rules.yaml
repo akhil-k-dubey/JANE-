@@ -1,0 +1,28 @@
+# Human-Supplied Hard Rules & Inviolable Physical Invariants
+
+invariants:
+  - name: "non_negative_mass"
+    description: "Physical entities cannot have negative mass."
+    variable: "mass"
+    condition: ">= 0.0"
+    penalty_type: "brick_wall"
+
+  - name: "energy_conservation"
+    description: "Total output energy cannot exceed total input energy plus source."
+    condition: "E_out <= E_in"
+    penalty_type: "brick_wall"
+
+  - name: "spatial_bounds_10x10"
+    description: "Grid positions must remain within [0, 9] in both dimensions."
+    condition: "0 <= x <= 9 and 0 <= y <= 9"
+    penalty_type: "brick_wall"
+
+  - name: "speed_of_light_barrier"
+    description: "Kinematic velocity cannot exceed c."
+    condition: "v < 299792458.0"
+    penalty_type: "brick_wall"
+
+  - name: "non_negative_distance"
+    description: "Distance between any two points must be >= 0."
+    condition: "dist >= 0.0"
+    penalty_type: "brick_wall"
